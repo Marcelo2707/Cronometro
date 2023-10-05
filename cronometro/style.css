@@ -1,0 +1,71 @@
+
+
+#cr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 280px;
+}
+
+#but{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding: 1px;
+
+}
+
+#numeros{
+    display: flex;
+    width: 260px;
+    height: 80px;
+    font-size: 15px;
+    border: solid 1px;
+    border-radius: 10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+#tempo{
+    border: solid 1px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    width: 250px;
+    height: 250px;
+
+}
+
+#start{
+    background-color: greenyellow;
+    margin: 0 6px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#mark{
+    background-color: gray;
+    margin: 0 6px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#stops{
+    background-color: red;
+    margin: 0 6px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#reset{
+    background-color: gray;
+    margin: 0 6px;
+    height: 40px;
+    border-radius: 50%;
+}
